@@ -13,4 +13,4 @@ set /a suma= "%nro1%" + "%nro2%"
 echo.
 echo El resultado de la suma es %suma%
 pause >nul
-start inicio.bat
+exit
