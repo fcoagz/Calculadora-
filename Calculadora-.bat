@@ -22,17 +22,17 @@ if "%progress%"=="3" goto multiplicacion
 if "%progress%"=="4" goto division
 
 :suma
-call suma.bat
+call progress/suma.bat
 exit
 
 :resta
-call resta.bat
+call progress/resta.bat
 exit
 
 :multiplicacion
-call multiplicacion.bat
+call progress/multiplicacion.bat
 exit
 
 :division
-call division.bat
+call progress/division.bat
 exit
