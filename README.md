@@ -18,7 +18,7 @@ por si el usuario no coloca el numero que corresponde
 if not "%progress_inicio%"=="2" goto error
 if not "%progress_inicio%"=="3" goto error
 if not "%progress_inicio%"=="4" goto error`
-- Los progresos en las operacion son simple, aqui va un ejemplo
+- Los progresos en las operacion son simple, aqui va un ejemplo 
 `set /p nro1= Coloque la primera cifra: 
 echo.
 set /p nro2= Coloque la segunda cifra: 
