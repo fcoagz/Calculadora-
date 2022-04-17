@@ -13,4 +13,4 @@ set /a resta= "%nro1%" / "%nro2%"
 echo.
 echo El resultado de la division es %division%
 pause >nul
-start inicio.bat
+exit
