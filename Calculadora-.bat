@@ -23,16 +23,12 @@ if "%progress%"=="4" goto division
 
 :suma
 call progress/suma.bat
-exit
 
 :resta
 call progress/resta.bat
-exit
 
 :multiplicacion
 call progress/multiplicacion.bat
-exit
 
 :division
 call progress/division.bat
-exit
