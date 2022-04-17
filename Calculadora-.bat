@@ -1,12 +1,11 @@
 @echo off
 :inicio
 title Calculadora-
-#LOGIN
 echo.
 set /p name= Hola Amigo/a, como te llamas? Yo: 
 cls
+title Calculadora- Menu
 echo.
-#MENU
 echo Hola %name%, soy una Calculadora- que ayuda a operar 
 echo tus problemas matematicos
 echo.
@@ -16,7 +15,6 @@ echo 3. Multiplicacion
 echo 4. Division
 echo.
 set /p progress_inicio= 
-#COMUNITATION
 :progress_inicio
 if "%progress_inicio%"=="1" goto suma
 if "%progress_inicio%"=="2" goto resta
@@ -28,13 +26,11 @@ if not "%progress_inicio%"=="1" goto error
 if not "%progress_inicio%"=="2" goto error
 if not "%progress_inicio%"=="3" goto error
 if not "%progress_inicio%"=="4" goto error
-#ERROR
 :error
-tilte Calculadora- ERROR
+title Calculadora- ERROR
 echo ERROR
 pause >nul
 goto inicio
-#SUMA
 :suma
 title Calculadora- SUMA
 cls
@@ -50,7 +46,6 @@ echo.
 echo El resultado de la suma es= %suma%
 pause >nul
 goto inicio
-#RESTA
 :resta
 title Calculadora- RESTA
 cls
@@ -66,7 +61,6 @@ echo.
 echo El resultado de la suma es= %resta%
 pause >nul
 goto inicio
-#MULTIPLICACION
 :multiplicacion
 title Calculadora- MULTIPLICACION
 cls
@@ -82,7 +76,6 @@ echo.
 echo El resultado de la suma es= %multiplicacion%
 pause >nul
 goto inicio
-#DIVISION
 :division
 title Calculadora- DIVISION
 cls
