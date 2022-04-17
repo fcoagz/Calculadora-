@@ -11,6 +11,6 @@ cls
 set /a resta= "%nro1%" - "%nro2%"
 
 echo.
-echo El resultado de la suma es %resta%
+echo El resultado de la resta es %resta%
 pause >nul
 start inicio.bat
