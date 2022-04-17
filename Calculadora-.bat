@@ -16,5 +16,23 @@ set /p progress_inicio=
 
 if "%progress_inicio%"=="" goto progress_inicio
 :progress_inicio
-start comunitation/progress_inicio.bat
+if "%progress%"=="1" goto suma
+if "%progress%"=="2" goto resta
+if "%progress%"=="3" goto multiplicacion
+if "%progress%"=="4" goto division
+
+:suma
+call suma.bat
+exit
+
+:resta
+call resta.bat
+exit
+
+:multiplicacion
+call multiplicacion.bat
+exit
+
+:division
+call division.bat
 exit
